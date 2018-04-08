@@ -60,13 +60,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
             default:
                 break;
         }
-
-        if (position > lastPosition) {
-            Animation animation = AnimationUtils.loadAnimation(context, R.anim.up_from_bottom);
-            holder.cardView.startAnimation(animation);
-            lastPosition = position;
-        }
-
     }
 
     @Override

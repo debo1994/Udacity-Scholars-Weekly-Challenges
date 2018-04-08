@@ -6,14 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <android.support.v7.widget.RecyclerView
+    <com.slack.weeklychallengeone.GridRecyclerView
         android:id="@+id/recyler_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </android.support.v7.widget.RecyclerView>
-
-
+        android:layout_height="match_parent"
+        android:layoutAnimation="@anim/grid_layout_anim_from_bottom"/>
 
 </android.support.constraint.ConstraintLayout>
